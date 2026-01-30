@@ -1,0 +1,100 @@
+2026-01-30 12:36:54 INFO  com.revature1254.main.App - APPLICATION STARTED
+2026-01-30 12:37:38 WARN  com.revature1254.service.SecurityQuestionService - Deleting security question started questionId=1 userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.SecurityQuestionService - Security question deleted successfully questionId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.SecurityQuestionService - Fetching security questions for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.SecurityQuestionService - Fetched 2 security questions for userId=1
+2026-01-30 12:37:38 WARN  com.revature1254.service.SecurityQuestionService - Deleting security question started questionId=1 userId=1
+2026-01-30 12:37:38 WARN  com.revature1254.service.SecurityQuestionService - Security question delete failed questionId=1 userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.SecurityQuestionService - Updating security question answer started questionId=1 userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.SecurityQuestionService - Security question updated successfully questionId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.SecurityQuestionService - Updating security question answer started questionId=1 userId=1
+2026-01-30 12:37:38 WARN  com.revature1254.service.SecurityQuestionService - Security question update failed questionId=1 userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.SecurityQuestionService - Adding security question started for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.SecurityQuestionService - Security question added successfully for userId=1
+2026-01-30 12:37:38 WARN  com.revature1254.service.PasswordService - Deleting password entry started entryId=1 userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Password entry deleted successfully entryId=1 userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Adding password entry started for userId=1 account=Gmail
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Password entry added successfully for userId=1 account=Gmail
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Fetching password entry started entryId=1 userId=1
+2026-01-30 12:37:38 WARN  com.revature1254.service.PasswordService - Password entry not found entryId=1 userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Fetching password entries for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Fetched 2 password entries for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Updating password started for entryId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Password updated successfully for entryId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Fetching password entry started entryId=1 userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Password entry found entryId=1 userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Searching password entries userId=1 keyword=Gmail
+2026-01-30 12:37:38 INFO  com.revature1254.service.PasswordService - Search completed userId=1 resultsFound=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.OTPService - OTP generation started for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.OTPService - OTP generated successfully for userId=1 (expires in 2 minutes)
+2026-01-30 12:37:38 INFO  com.revature1254.service.OTPService - OTP validation attempt started for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.OTPService - OTP validation successful for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.OTPService - OTP validation attempt started for userId=1
+2026-01-30 12:37:38 WARN  com.revature1254.service.OTPService - OTP validation failed for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - Fetching user details for email=test@gmail.com
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - Login attempt started for email=test@gmail.com
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - User logged in successfully for email=test@gmail.com
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - Login attempt started for email=test@gmail.com
+2026-01-30 12:37:38 WARN  com.revature1254.service.UserService - Login failed - user not found for email=test@gmail.com
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - Login attempt started for email=test@gmail.com
+2026-01-30 12:37:38 WARN  com.revature1254.service.UserService - Login failed - wrong password for email=test@gmail.com
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - User registration started for email=test@gmail.com
+2026-01-30 12:37:38 WARN  com.revature1254.service.UserService - Duplicate registration attempt for email=test@gmail.com
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - Updating profile for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - Profile updated successfully for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - User registration started for email=test@gmail.com
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - User registered successfully for email=test@gmail.com
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - Updating master password for userId=1
+2026-01-30 12:37:38 INFO  com.revature1254.service.UserService - Master password updated successfully for userId=1
+2026-01-30 12:41:21 INFO  com.revature1254.main.App - APPLICATION STARTED
+2026-01-30 12:43:38 INFO  com.revature1254.service.UserService - User registration started for email=nikhil@gmail.com
+2026-01-30 12:43:40 INFO  com.revature1254.service.UserService - User registered successfully for email=nikhil@gmail.com
+2026-01-30 12:45:11 INFO  com.revature1254.service.UserService - Login attempt started for email=nikhil@gmail.com
+2026-01-30 12:45:11 WARN  com.revature1254.service.UserService - Login failed - wrong password for email=nikhil@gmail.com
+2026-01-30 12:45:54 INFO  com.revature1254.service.UserService - Login attempt started for email=nikhil@gmail.com
+2026-01-30 12:45:54 INFO  com.revature1254.service.UserService - User logged in successfully for email=nikhil@gmail.com
+2026-01-30 12:46:39 INFO  com.revature1254.service.UserService - Updating profile for userId=21
+2026-01-30 12:46:39 INFO  com.revature1254.service.UserService - Profile updated successfully for userId=21
+2026-01-30 12:53:06 INFO  com.revature1254.main.App - APPLICATION STARTED
+2026-01-30 12:54:04 INFO  com.revature1254.main.App - APPLICATION STARTED
+2026-01-30 12:54:32 INFO  com.revature1254.service.UserService - Login attempt started for email=nikhil1234@gmail.com
+2026-01-30 12:54:34 INFO  com.revature1254.service.UserService - User logged in successfully for email=nikhil1234@gmail.com
+2026-01-30 12:55:07 INFO  com.revature1254.service.PasswordService - Adding password entry started for userId=21 account=netflix
+2026-01-30 12:55:07 INFO  com.revature1254.service.PasswordService - Password entry added successfully for userId=21 account=netflix
+2026-01-30 14:03:34 INFO  com.revature1254.service.PasswordService - Adding password entry started for userId=21 account=primevideo
+2026-01-30 14:03:34 INFO  com.revature1254.service.PasswordService - Password entry added successfully for userId=21 account=primevideo
+2026-01-30 14:03:47 INFO  com.revature1254.service.PasswordService - Fetching password entries for userId=21
+2026-01-30 14:03:47 INFO  com.revature1254.service.PasswordService - Fetched 2 password entries for userId=21
+2026-01-30 14:04:30 INFO  com.revature1254.service.OTPService - OTP generation started for userId=21
+2026-01-30 14:04:30 INFO  com.revature1254.service.OTPService - OTP generated successfully for userId=21 (expires in 2 minutes)
+2026-01-30 14:04:37 INFO  com.revature1254.service.OTPService - OTP validation attempt started for userId=21
+2026-01-30 14:04:37 INFO  com.revature1254.service.OTPService - OTP validation successful for userId=21
+2026-01-30 14:04:37 INFO  com.revature1254.service.PasswordService - Fetching password entry started entryId=4 userId=21
+2026-01-30 14:04:37 INFO  com.revature1254.service.PasswordService - Password entry found entryId=4 userId=21
+2026-01-30 14:06:22 INFO  com.revature1254.service.PasswordService - Searching password entries userId=21 keyword=n
+2026-01-30 14:06:22 INFO  com.revature1254.service.PasswordService - Search completed userId=21 resultsFound=1
+2026-01-30 14:06:41 INFO  com.revature1254.service.SecurityQuestionService - Fetching security questions for userId=21
+2026-01-30 14:06:42 INFO  com.revature1254.service.SecurityQuestionService - Fetched 0 security questions for userId=21
+2026-01-30 14:06:53 INFO  com.revature1254.service.SecurityQuestionService - Adding security question started for userId=21
+2026-01-30 14:06:53 INFO  com.revature1254.service.SecurityQuestionService - Security question added successfully for userId=21
+2026-01-30 14:07:13 INFO  com.revature1254.service.SecurityQuestionService - Fetching security questions for userId=21
+2026-01-30 14:07:13 INFO  com.revature1254.service.SecurityQuestionService - Fetched 1 security questions for userId=21
+2026-01-30 14:07:24 INFO  com.revature1254.service.SecurityQuestionService - Adding security question started for userId=21
+2026-01-30 14:07:24 INFO  com.revature1254.service.SecurityQuestionService - Security question added successfully for userId=21
+2026-01-30 14:07:29 INFO  com.revature1254.service.SecurityQuestionService - Fetching security questions for userId=21
+2026-01-30 14:07:30 INFO  com.revature1254.service.SecurityQuestionService - Fetched 2 security questions for userId=21
+2026-01-30 14:09:10 INFO  com.revature1254.main.App - APPLICATION STARTED
+2026-01-30 14:11:58 INFO  com.revature1254.service.UserService - User registration started for email=geetha@gmail.com
+2026-01-30 14:12:00 INFO  com.revature1254.service.UserService - User registered successfully for email=geetha@gmail.com
+2026-01-30 14:12:47 INFO  com.revature1254.service.UserService - Login attempt started for email=geetha@gmail.com
+2026-01-30 14:12:48 INFO  com.revature1254.service.UserService - User logged in successfully for email=geetha@gmail.com
+2026-01-30 14:13:15 INFO  com.revature1254.service.PasswordService - Adding password entry started for userId=22 account=netflix
+2026-01-30 14:13:15 INFO  com.revature1254.service.PasswordService - Password entry added successfully for userId=22 account=netflix
+2026-01-30 14:13:30 INFO  com.revature1254.service.PasswordService - Fetching password entries for userId=22
+2026-01-30 14:13:30 INFO  com.revature1254.service.PasswordService - Fetched 1 password entries for userId=22
+2026-01-30 14:16:52 INFO  com.revature1254.service.OTPService - OTP generation started for userId=1
+2026-01-30 14:16:52 INFO  com.revature1254.service.OTPService - OTP generated successfully for userId=1 (expires in 2 minutes)
+2026-01-30 14:16:52 INFO  com.revature1254.service.OTPService - OTP validation attempt started for userId=1
+2026-01-30 14:16:52 INFO  com.revature1254.service.OTPService - OTP validation successful for userId=1
+2026-01-30 14:16:52 INFO  com.revature1254.service.OTPService - OTP validation attempt started for userId=1
+2026-01-30 14:16:52 WARN  com.revature1254.service.OTPService - OTP validation failed for userId=1
